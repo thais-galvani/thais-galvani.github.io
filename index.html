@@ -1,1 +1,34 @@
-Oiee mundo
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divider com Ícone</title>
+  <style>
+    /* Adicione estilos conforme necessário para a apresentação do divider com ícone */
+    .divider {
+      display: flex;
+      align-items: center;
+    }
+
+    .divider-line {
+      flex-grow: 1;
+      border-top: 1px solid #ccc;
+    }
+
+    .divider-icon {
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Divider com Ícone (sem label) -->
+<div class="divider" role="separator">
+  <span class="divider-line" aria-hidden="true"></span>
+  <span class="divider-icon" aria-label="Seu Ícone Aqui">&#128279;</span>
+  <span class="divider-line" aria-hidden="true"></span>
+</div>
+
+</body>
+</html>
