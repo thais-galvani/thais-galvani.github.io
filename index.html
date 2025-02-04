@@ -9,31 +9,103 @@
     body { 
       background: #F6F6F6; 
     }
+
+        /* Alterar o gutter (espaçamento entre colunas) */
+    .row {
+        --bs-gutter-x: 8px; /* Espaçamento horizontal */
+        --bs-gutter-y: 8px; /* Espaçamento vertical */
+    }
+    
+    /* Ajustar a largura do container em diferentes breakpoints */
+    @media (min-width: 576px) {  /* sm */
+        .container {
+            max-width: 752px;
+        }
+    }
+    
+    @media (min-width: 768px) {  /* md */
+        .container {
+            max-width: 976px;
+        }
+    }
+    
+    @media (min-width: 992px) {  /* lg */
+        .container {
+            max-width: 1184px;
+        }
+    }
+    
+    @media (min-width: 1200px) { /* xl */
+        .container {
+            max-width: 1384px;
+        }
+    }
+    
+    @media (min-width: 1400px) { /* xxl */
+        .container {
+            max-width: 1904px;
+        }
+    }
+
     
   </style>
 </head>
 <body>
 
-<h2 aria-hidden="true"> divider apenas com linha </h2>
-<div class="divider" role="separator">
-  <span class="divider-line" aria-hidden="true"></span>
-</div>
-
-<br><br><br><br>
-
-<h2 aria-hidden="true"> divider com icone </h2>
-
 <div class="container mt-4">
     <div class="row">
       <div class="col-12"> 
       Nome do projeto </div> 
-        <div class="col-4">
+        <div class="col-xl-4 col-md-6 col-sm-12">
             <img src="https://lh3.googleusercontent.com/cNtsX7v3OBKD46uu2GqszLhjNpfApTtf6q1KVPBpM8C2Z9VDdu2gOMJ6kDatr8TaPNLmigzvMgLUj4-JfrIidjM=w1280" class="img-fluid rounded" alt="Imagem 1">
         </div>
-        <div class="col-4">
+        <div class="col-xl-4 col-md-6 col-sm-12">
             <img src="https://lh3.googleusercontent.com/cNtsX7v3OBKD46uu2GqszLhjNpfApTtf6q1KVPBpM8C2Z9VDdu2gOMJ6kDatr8TaPNLmigzvMgLUj4-JfrIidjM=w1280" class="img-fluid rounded" alt="Imagem 2">
         </div>
-        <div class="col-4">
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicadores (bolinhas) -->
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2"></button>
+          </div>
+  
+          <!-- Slides do carrossel -->
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="https://lh3.googleusercontent.com/cNtsX7v3OBKD46uu2GqszLhjNpfApTtf6q1KVPBpM8C2Z9VDdu2gOMJ6kDatr8TaPNLmigzvMgLUj4-JfrIidjM=w1280" class="d-block w-100" alt="Imagem 1">
+              </div>
+              <div class="carousel-item">
+                  <img src="https://lh3.googleusercontent.com/cNtsX7v3OBKD46uu2GqszLhjNpfApTtf6q1KVPBpM8C2Z9VDdu2gOMJ6kDatr8TaPNLmigzvMgLUj4-JfrIidjM=w1280" class="d-block w-100" alt="Imagem 2">
+              </div>
+              <div class="carousel-item">
+                  <img src="https://lh3.googleusercontent.com/cNtsX7v3OBKD46uu2GqszLhjNpfApTtf6q1KVPBpM8C2Z9VDdu2gOMJ6kDatr8TaPNLmigzvMgLUj4-JfrIidjM=w1280" class="d-block w-100" alt="Imagem 3">
+              </div>
+          </div>
+  
+          <!-- Botões de navegação -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </button>
+  
+          </div>
+        </div>
+    </div>
+
+  <div class="row">
+      <div class="col-12"> 
+      Nome do projeto </div> 
+        <div class="col-xl-4 col-md-6 col-sm-12">
+            <img src="https://lh3.googleusercontent.com/cNtsX7v3OBKD46uu2GqszLhjNpfApTtf6q1KVPBpM8C2Z9VDdu2gOMJ6kDatr8TaPNLmigzvMgLUj4-JfrIidjM=w1280" class="img-fluid rounded" alt="Imagem 1">
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+            <img src="https://lh3.googleusercontent.com/cNtsX7v3OBKD46uu2GqszLhjNpfApTtf6q1KVPBpM8C2Z9VDdu2gOMJ6kDatr8TaPNLmigzvMgLUj4-JfrIidjM=w1280" class="img-fluid rounded" alt="Imagem 2">
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
             <img src="https://lh3.googleusercontent.com/cNtsX7v3OBKD46uu2GqszLhjNpfApTtf6q1KVPBpM8C2Z9VDdu2gOMJ6kDatr8TaPNLmigzvMgLUj4-JfrIidjM=w1280" class="img-fluid rounded" alt="Imagem 3">
         </div>
     </div>
