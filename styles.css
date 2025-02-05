@@ -6,11 +6,12 @@ body {
 
   .job-hero { 
         padding-top: 48px;
-        padding-bottom: 48px;
+        padding-bottom: 24px;
   }
 
-  .job-hero .arrow {
+  .job-hero a .arrow {
     font-size: 28px;
+    text-decoration: none;
   }
 
   .text-big {
