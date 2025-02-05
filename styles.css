@@ -7,9 +7,14 @@ body {
 
   }
 
-  .p-big {
-    font-size: 22px;
-    line-height: 1.65em;
+  .text-big {
+    font-size: 18px;
+    line-height: 1.8em;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
   }
 
   .job-videos {
