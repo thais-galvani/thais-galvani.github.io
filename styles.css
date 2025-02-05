@@ -7,6 +7,11 @@ body {
 
   }
 
+  .p-big {
+    font-size: 22px;
+    line-height: 1.65em;
+  }
+
   .job-videos {
       border-radius:4px;
       position: relative;
