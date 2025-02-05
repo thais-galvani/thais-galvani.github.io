@@ -30,6 +30,17 @@ body {
         border-top: 1px solid #DFDFDF;
   }
 
+  .nav-link {
+    display: block;
+    padding: 8px 48px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #19171A;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  }
+
   h2 {
     font-size: 18px;
     font-weight: 600;
