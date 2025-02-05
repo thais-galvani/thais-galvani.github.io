@@ -3,8 +3,13 @@ body {
     font-family: 'Manrope', sans-serif;
   }
 
-  .job-titles { 
+  .job-hero { 
+        padding-top: 80px;
+        padding-bottom: 48px;
+  }
 
+  .job-hero .arrow {
+    font-size: 28px;
   }
 
   .text-big {
