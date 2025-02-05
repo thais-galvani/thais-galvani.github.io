@@ -5,9 +5,9 @@ body {
   }
 
   .job-hero { 
-        padding-top: 40px;
+        padding-top: 32px;
         padding-bottom: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 32px;
   }
 
   .job-hero h1 {
@@ -17,6 +17,14 @@ body {
   .job-hero .arrow a {
     font-size: 28px;
     text-decoration: none;
+    color:#19171A;
+  }
+
+  p {
+    line-height: 1.7em;
+  }
+
+  a {
     color:#19171A;
   }
 
@@ -52,7 +60,7 @@ body {
   }
 
   h1 {
-    font-size: calc(1.6rem + 1.8vw);
+    font-size: calc(1.5rem + 1.6vw);
   }
 
   h2 {
@@ -69,7 +77,7 @@ body {
 
   .job-links {
       text-align: right;
-      font-size: 14px;
+      font-size: 16px;
       line-height: 24px;
   }
 
