@@ -51,6 +51,10 @@ body {
     text-decoration: none;
   }
 
+  h1 {
+    font-size: calc(1.6rem + 1.8vw);
+  }
+
   h2 {
     font-size: 18px;
     font-weight: 600;
