@@ -6,7 +6,10 @@ body {
 
   .job-text-details {
     padding: 64px 80px 64px 64px;
-  }
+    position: sticky;
+    top: 64px;
+    height: fit-content;
+}
 
   .case-item {
     margin-bottom: 8px;
