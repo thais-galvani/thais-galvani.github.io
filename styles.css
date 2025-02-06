@@ -5,7 +5,7 @@ body {
   }
 
   .job-text-details {
-    padding: 80px 96px 80px 80px;
+    padding: 80px 96px 64px 80px;
     position: sticky;
     bottom: 0px;
     height: auto;
