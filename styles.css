@@ -8,29 +8,11 @@ body {
     padding: 80px 96px 80px 80px;
     position: sticky;
     top: 80px;
-    height: fit-content;
+    height: auto;
 }
 
   .case-item {
     margin-bottom: 8px;
-  }
-
-  .details {
-      display: flex;
-      align-items: flex-start;
-  }
-
-  .sidebar {
-    position: sticky;
-    top: 0;
-    height: fit-content;
-    max-height: 100vh; /* Limita a altura */
-    overflow: hidden; /* Evita rolagem interna */
-  }
-  .main-content {
-      min-height: 200vh; /* Simulando um conteúdo maior */
-      background: #f8f9fa;
-      padding: 20px;
   }
 
   .case-item img {
