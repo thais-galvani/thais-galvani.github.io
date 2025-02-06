@@ -5,7 +5,11 @@ body {
   }
 
   .job-text-details {
-    padding: 64px;
+    padding: 64px 80px 64px 64px;
+  }
+
+  .case-item {
+    margin-bottom: 8px;
   }
 
   .job-hero { 
@@ -68,8 +72,9 @@ body {
   }
 
   h2 {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
+    color:#787875;
   }
 
   .job-videos {
