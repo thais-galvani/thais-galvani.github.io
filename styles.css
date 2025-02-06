@@ -15,6 +15,11 @@ body {
     margin-bottom: 8px;
   }
 
+  .case-item img {
+    width: 100%;
+    height: auto;
+  }
+
   .job-hero { 
         padding-top: 32px;
         padding-bottom: 40px;
