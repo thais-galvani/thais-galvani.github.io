@@ -5,9 +5,9 @@ body {
   }
 
   .job-text-details {
-    padding: 64px 80px 64px 64px;
+    padding: 80px 96px 80px 80px;
     position: sticky;
-    top: 64px;
+    top: 80px;
     height: fit-content;
 }
 
