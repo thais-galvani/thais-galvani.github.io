@@ -4,6 +4,10 @@ body {
     color:#19171A;
   }
 
+  .job-text-details {
+    padding: 48px 48px;
+  }
+
   .job-hero { 
         padding-top: 32px;
         padding-bottom: 40px;
