@@ -65,7 +65,7 @@ body {
   }
 
   .simple-menu {
-    text-align: center;
+    text-align: right;
     border-bottom: 1px solid #CCCDCC;
     padding: 0px;
   }
@@ -141,9 +141,6 @@ body {
         text-align: left;
       }
 
-      .simple-menu {
-        text-align: right;
-      }
   }
   
   @media (min-width: 768px) {  /* md */
