@@ -67,7 +67,7 @@ body {
   .simple-menu {
     text-align: right;
     border-bottom: 1px solid #CCCDCC;
-    padding: 0px;
+    padding: 0px 8px 0px 0px;
   }
 
   .simple-footer {
