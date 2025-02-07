@@ -5,7 +5,7 @@ body {
   }
 
   .job-text-details {
-    padding: 64px 104px 16px 88px;
+    padding: 80px 128px 24px 112px;
     position: sticky;
     bottom: 0px;
     height: auto;
@@ -50,20 +50,21 @@ body {
   }
 
   .job-sections {
-        padding: 80px 0px;
-        border-top: 1px solid #DFDFDF;
+        padding: 64px 0px;
+        border-top: 1px solid #CCCDCC;
   }
 
   .simple-menu {
     text-align: center;
-    border-bottom: 1px solid #DFDFDF;
+    border-bottom: 1px solid #CCCDCC;
     padding: 0px;
   }
 
   .simple-footer {
     text-align: center;
-    border-top: 1px solid #DFDFDF;
+    border-top: 1px solid #CCCDCC;
     padding: 0px;
+    margin-top: 80px;
   }
 
   .menu-item, .footer-item {
