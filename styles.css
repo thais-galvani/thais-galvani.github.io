@@ -178,4 +178,9 @@ body {
     .job-links {
       text-align: left;
     }
+
+    .job-text-details {
+      padding: 48px 16px;
+    }
+
   }
