@@ -36,9 +36,13 @@ body {
   }
 
   .logo {
-    position: relative;
-    left: 16px;
-    top: 8px;
+    position: absolute;
+    left: 11px;
+    top: 13px;
+  }
+
+  .logo img {
+    width: 64px;
   }
 
   p {
@@ -131,6 +135,14 @@ body {
   @media (min-width: 576px) {  /* sm */
       .container {
           max-width: 738px;
+      }
+
+      .job-links {
+        text-align: left;
+      }
+
+      .simple-menu {
+        text-align: right;
       }
   }
   
