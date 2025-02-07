@@ -180,7 +180,11 @@ body {
     }
 
     .job-text-details {
-      padding: 48px 16px;
+      padding: 24px 16px;
+    }
+
+    ..job-sections {
+      padding: 48px 0px;
     }
 
   }
