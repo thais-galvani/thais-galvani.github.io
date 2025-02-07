@@ -46,6 +46,7 @@ body {
   .text-big {
     font-size: 16px;
     line-height: 1.8em;
+    font-weight: 500;
   }
 
   .job-sections {
@@ -59,7 +60,13 @@ body {
     padding: 0px;
   }
 
-  .menu-item {
+  .simple-footer {
+    text-align: center;
+    border-top: 1px solid #DFDFDF;
+    padding: 0px;
+  }
+
+  .menu-item, .footer-item {
     display: inline-block;
     padding: 8px 4px;
   }
@@ -83,6 +90,11 @@ body {
     font-weight: 400;
     color:#787875;
     margin-bottom: 16px;
+  }
+
+  .contact-info {
+    font-size: 18px;
+    font-weight: 700;
   }
 
   .job-videos {
