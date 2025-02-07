@@ -147,6 +147,10 @@ body {
       .container {
           max-width: 960px;
       }
+
+      .job-links {
+        text-align: right;
+      }
   }
   
   @media (min-width: 992px) {  /* lg */
