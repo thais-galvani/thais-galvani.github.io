@@ -35,6 +35,12 @@ body {
     color:#19171A;
   }
 
+  .logo {
+    position: relative;
+    left: 16px;
+    top: 8px;
+  }
+
   p {
     line-height: 1.7em;
   }
