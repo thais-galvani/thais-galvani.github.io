@@ -173,3 +173,9 @@ body {
           max-width: 1888px;
       }
   }
+
+  @media (max-width: 767px) {  /* sm */
+    .job-links {
+      text-align: left;
+    }
+  }
