@@ -48,6 +48,11 @@ body {
     width: 64px;
   }
 
+  .avatar {
+    text-align: center;
+    margin-bottom: -32px;
+  }
+
   p {
     line-height: 1.7em;
   }
