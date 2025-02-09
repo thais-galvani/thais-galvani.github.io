@@ -51,6 +51,11 @@ body {
   .avatar {
     text-align: center;
     margin-bottom: -32px;
+    margin-top: 64px;
+  }
+
+  .avatar img {
+    width: 80px;
   }
 
   p {
@@ -81,8 +86,8 @@ body {
   .simple-footer {
     text-align: center;
     border-top: 1px solid #CCCDCC;
-    padding: 0px;
-    margin-top: 80px;
+    padding: 16px 0px 0px 0px;
+    margin-top: 20px;
   }
 
   .menu-item, .footer-item {
