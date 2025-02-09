@@ -15,6 +15,11 @@ body {
     align-self: flex-end;
 }
 
+.job-row {
+  margin-top: 16px;
+  margin-bottom: 88px;
+}
+
   .case-item {
     margin-bottom: 8px;
   }
