@@ -117,8 +117,13 @@ body {
   }
 
   h1 {
-    font-size: calc(1.4rem + 1.4vw);
+    font-size: calc(1.6rem + 1.4vw);
     font-weight: 400;
+  }
+
+  .home-text {
+    font-size: 16px;
+    padding: 40px;
   }
 
   .job-text-details h2 {
@@ -207,6 +212,11 @@ body {
 
     .job-sections {
       padding: 32px 0px;
+    }
+
+    .home-text {
+      font-size: 18px;
+      padding: 0px;
     }
 
   }
