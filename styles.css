@@ -117,7 +117,8 @@ body {
   }
 
   h1 {
-    font-size: calc(1.3rem + 1.4vw);
+    font-size: calc(1.4rem + 1.4vw);
+    font-weight: 400;
   }
 
   .job-text-details h2 {
