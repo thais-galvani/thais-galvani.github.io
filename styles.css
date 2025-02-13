@@ -171,10 +171,6 @@ body {
           max-width: 738px;
       }
 
-      .job-links {
-        text-align: left;
-      }
-
   }
   
   @media (min-width: 768px) {  /* md */
