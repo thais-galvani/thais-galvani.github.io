@@ -122,12 +122,11 @@ body {
   }
 
   .home-title {
-    padding: 24px;
     font-size: 64px;
   }
 
   .home-text {
-    font-size: 16px;
+    font-size: 14px;
     padding: 40px 128px 0px 0px;
   }
 
@@ -205,7 +204,7 @@ body {
 
   @media (max-width: 991px) {  /* sm */
     .home-text {
-      font-size: 16px;
+      font-size: 14px;
       padding: 40px 16px 0px 0px;
     }
 
