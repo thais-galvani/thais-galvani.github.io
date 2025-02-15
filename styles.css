@@ -7,6 +7,11 @@ body {
     font-weight: 500;
   }
 
+  ::selection {
+    background: #19171A;
+    color:  #F6F6F6; 
+  }
+
   .job-text-details {
     padding: 80px 128px 24px 112px;
     position: sticky;
