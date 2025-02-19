@@ -95,7 +95,7 @@ body {
 
   .simple-menu {
     text-align: right;
-    border-bottom: 1px solid #CCCDCC;
+    border-bottom: 0px solid #CCCDCC;
     padding: 0px 8px 0px 0px;
   }
 
@@ -104,6 +104,12 @@ body {
     border-top: 1px solid #CCCDCC;
     padding: 16px 0px 0px 0px;
     margin-top: 20px;
+  }
+
+  .complex-footer {
+    background-color: #19171A;
+    color: #F6F6F6;
+    padding: 40px; 
   }
 
   .menu-item, .footer-item {
