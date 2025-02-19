@@ -111,8 +111,12 @@ body {
   }
 
   .next-project p{
-    font-size: 64px;
+    font-size: 48px;
     text-transform: uppercase;
+  }
+
+  .next-project a {
+    text-decoration: none;
   }
 
   .next-project {
@@ -121,10 +125,10 @@ body {
     text-align: center;
   }
 
-  .boxes ul li{
+  .boxes li{
     display: inline-block;
-    width: 40px;
-    height: 40px;;
+    width: 32px;
+    height: 32px;
   }
 
   .project-name {
