@@ -107,7 +107,8 @@ body {
   }
 
   .next {
-    color:#CDCDCD;
+    color:#D5D3D1;
+    padding-right: 4px;
   }
 
   .next-project p{
