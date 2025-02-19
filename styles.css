@@ -113,7 +113,12 @@ body {
 
   .next-project p{
     font-size: 48px;
+    line-height: 1em;
     text-transform: uppercase;
+  }
+
+  .next-project svg{
+    vertical-align: top;
   }
 
   .next-project a {
@@ -122,8 +127,13 @@ body {
 
   .next-project {
     border-top: 4px solid #19171A;
-    padding-top: 48px 16px 32px;
+    padding: 32px 0px 0px;
     text-align: center;
+    margin-top: 64px;
+  }
+
+  .boxes {
+    padding: 0px;
   }
 
   .boxes li{
