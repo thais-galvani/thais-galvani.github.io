@@ -109,7 +109,7 @@ body {
   .complex-footer {
     background-color: #19171A;
     color: #F6F6F6;
-    padding: 40px; 
+    padding: 48px 16px 16px 16px; 
   }
 
   .menu-item, .footer-item {
