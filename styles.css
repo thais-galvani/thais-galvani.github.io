@@ -109,7 +109,20 @@ body {
   .complex-footer {
     background-color: #19171A;
     color: #F6F6F6;
-    padding: 48px 16px 16px 16px; 
+    padding: 16px; 
+  }
+
+  .complex-footer .row{
+    margin-bottom: 88px; 
+  }
+
+  .meu-svg {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .meu-svg:hover {
+    stroke: none;  /* Remove a borda */
+    fill: #F1EFED;    /* Preenche a forma */
   }
 
   .menu-item, .footer-item {
