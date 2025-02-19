@@ -119,13 +119,11 @@ body {
 
   .meu-svg {
     transition: all 0.3s ease-in-out;
-    stroke:none;
     fill:#F1EFED;
     margin-left: 8px;
   }
   
   .meu-svg:hover {
-    stroke:none;
     fill: #3D3C43;
   }
 
