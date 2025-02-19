@@ -108,8 +108,9 @@ body {
 
   .complex-footer {
     background-color: #19171A;
-    color: #F6F6F6;
+    color: #F1EFED;
     padding: 16px; 
+    font-weight: 400;
   }
 
   .complex-footer .row{
@@ -118,11 +119,12 @@ body {
 
   .meu-svg {
     transition: all 0.3s ease-in-out;
+    stroke:none;
+    fill:#F1EFED;
   }
   
   .meu-svg:hover {
-    stroke: none;  /* Remove a borda */
-    fill: #F1EFED;    /* Preenche a forma */
+    fill: #3D3C43;
   }
 
   .menu-item, .footer-item {
