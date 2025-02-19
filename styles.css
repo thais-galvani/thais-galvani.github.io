@@ -106,6 +106,21 @@ body {
     margin-top: 20px;
   }
 
+  .next-project {
+    border-top: 1px solid #CCCDCC;
+    text-align: center;
+  }
+
+  .project-name {
+    font-size: calc(1.6rem + 1.4vw);
+    font-weight: 400;
+  }
+
+  .overline {
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
   .complex-footer {
     background-color: #19171A;
     color: #F1EFED;
@@ -119,11 +134,10 @@ body {
 
   .meu-svg {
     transition: all 0.3s ease-in-out;
-    fill:#F1EFED;
-    margin-left: 8px;
+    margin-left: 4px;
   }
   
-  .meu-svg:hover {
+  .meu-svg path:hover {
     fill: #3D3C43;
   }
 
