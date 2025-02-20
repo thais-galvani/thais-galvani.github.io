@@ -138,8 +138,8 @@ body {
 
   .boxes li{
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 12px;
   }
 
   .project-name {
