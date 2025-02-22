@@ -182,6 +182,10 @@
     height: auto;
   }
 
+  .video-details {
+    padding: 96px 0px; 
+  }
+
 
 /* ------- footer details ------- */ 
 
