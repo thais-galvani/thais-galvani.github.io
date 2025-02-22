@@ -178,10 +178,11 @@
 
 /* ------- footer details ------- */ 
 
-  .next-project p{
+  .next-project p, .project-name{
     font-size: 48px;
     line-height: 1em;
     text-transform: uppercase;
+    font-weight: 400;
   }
 
   .next-project svg{
@@ -194,8 +195,7 @@
 
   .next-project {
     border-top: 4px solid #19171A;
-    padding: 32px 0px 0px;
-    text-align: center;
+    padding: 24px 0px 16px;
     margin-top: 128px;
   }
 
@@ -210,13 +210,8 @@
   }
 
   .next {
-    color:#D5D3D1;
+    color:#b9b7b5;
     padding-right: 8px;
-  }
-
-  .project-name {
-    font-size: calc(1.6rem + 1.4vw);
-    font-weight: 400;
   }
 
 /* ------ about -------- */
@@ -260,6 +255,13 @@
       .home-text {
         font-size: 16px;
         padding: 40px 40px 0px 0px;
+      }
+
+      .next-project p, .project-name{
+        font-size: 32px;
+        line-height: 1em;
+        text-transform: uppercase;
+        font-weight: 400;
       }
 
   }
