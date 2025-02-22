@@ -86,16 +86,19 @@
 
   .home-links a{
     font-size: 18px;
-    line-height: 32px;
+    line-height: 24px;
     color:#19171A;
     text-decoration: none;
     display: inline-block;
-    border-bottom: 1px solid #19171A;
+    border-bottom: 1.6px solid #19171A;
   }
 
   .job-links {
     text-align: right;
-    padding-left: 4px;
+  }
+
+  .job-links svg {
+    margin: -2px 0px 0px 8px;
   }
 
 
