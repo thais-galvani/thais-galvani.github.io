@@ -64,7 +64,12 @@
   }
 
   .home-title {
-    font-size: 50px;
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .home-title span {
+    color: #929292;
   }
 
   .home-text {
@@ -284,7 +289,7 @@
 
       .home-text {
         font-size: 14px;
-        padding: 40px 16px 0px 16px;
+        padding: 40px 16px 0px 0px;
       }
   
       .home-title {
